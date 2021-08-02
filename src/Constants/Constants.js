@@ -4,6 +4,7 @@ let Constants = {
 Endpoints: {
 	map: 'map',
 	playlist: 'playlist',
+  shop: 'shop/br',
 }
 }
 
