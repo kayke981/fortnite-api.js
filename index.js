@@ -3,7 +3,10 @@ const constants = require('./src/Constants/Constants.js')
 
 module.exports = {
 	Client: client,
-	HTTP: `${constants.API1} ${constants.API2}`
+	HTTP: {
+		1: `${constants.API1}`,
+		2: `${constants.API2}`,
+	}
 }
 /*
 const a = require('./src/rest/HTTPAPIrequest.js')

@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 const messages = require('../error/message.js');
 
-async function request(method, url, headers, data) {
+async function request(method, url, data, headers) {
 let jsoN = {
 	method: method
 }
