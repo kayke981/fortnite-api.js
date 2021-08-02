@@ -8,8 +8,7 @@ module.exports = {
 		2: `${constants.API2}`,
 	}
 }
-/*
+
 const a = require('./src/rest/HTTPAPIrequest.js')
 
 a('GET', 'https://fortnite-api.com/v2/map')
-*/
