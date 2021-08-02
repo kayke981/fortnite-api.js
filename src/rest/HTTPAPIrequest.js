@@ -20,7 +20,7 @@ if(headers) {
  }
 	} catch {
 		if(r.status !== 200) {
-			throw new TypeError(`[${r.status}] - ${r.statusText}, reason: could not find the link`)
+			throw new TypeError(`[${r.status}] - ${r.statusText}, reason:`)
 		}
 	}
 }
