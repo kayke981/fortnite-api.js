@@ -3,7 +3,7 @@ let Constants = {
 	API2: 'https://fortnite-api.com/v2/',
 Endpoints: {
 	map: 'map',
-	
+	playlist: 'playlist',
 }
 }
 
