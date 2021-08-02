@@ -7,4 +7,4 @@ Endpoints: {
 }
 }
 
-module.exports = Constants
+module.exports = Constants;
